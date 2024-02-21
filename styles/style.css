@@ -1,0 +1,119 @@
+body {
+    max-width: 800px;
+    margin: auto auto;
+    background-color: rgb(220, 220, 220);
+    color: rgb(50,50,50);
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+    #name, .title, .page{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    } 
+    #name {
+        width: 700px;
+        margin: 0px 25px;
+        padding: 10px 50px;
+        text-align: center;
+        font-size: 96px;
+    }
+
+    .cover-picture-container, .pages{
+        margin: 0px 50px;
+        width: 600px;
+        padding: 10px 50px;
+        text-align: center;
+    }
+
+    .cover-picture{
+        width: 100%;
+    }
+
+    .page{
+        display: inline-block;
+        margin: 0px 10x;
+        padding: 10px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    a {
+        color: inherit;
+    }
+
+    .title{
+        text-align: left;
+        font-size: 72px;
+    }
+
+    .page-text-container{
+        width: 450px;
+        height: 800px;
+        padding: 25px;
+        float: left;
+        text-align: justify;
+    }
+        .recipe{
+            font-size: 24px;
+            display: inline;
+        }
+
+    .page-picture-container{
+        width: 250px;
+        height: 800px;
+        padding: 25px;
+        overflow: hidden;
+        float: right;
+    }
+
+        .page-picture{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .dish-container{
+        display: table;
+        width: 100%;
+    }
+
+        .dish-picture-container, .dish-description-container{
+            width: 370px;
+            padding: 10px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        
+        .dish-picture-container{
+            margin-left: 10px;
+        }
+            .dish-picture{
+                width: 90%;
+                margin: auto;
+            }
+
+        .dish-description-container{
+            margin-right: 10px;
+            text-align: justify;
+        }
+
+    .recipe-container{
+        width: 100%;
+        display: table;
+    }
+        .ingredients-container, .preparation-container{
+            padding: 10px;
+            display: table-cell;
+            vertical-align: text-top;
+            text-align: justify;
+        }
+
+        .ingredients-container{
+            width: 370px;
+            margin-left: 10px;
+        }
+
+        .preparation-container{
+            width: 400px;
+            margin-right: 10px;
+        }
+
