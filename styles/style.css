@@ -6,36 +6,6 @@ body {
     font-family: Geneva, Verdana, sans-serif;
 }
 
-    #name, .title, .page{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    } 
-    #name {
-        width: 700px;
-        margin: 0px 25px;
-        padding: 10px 50px;
-        text-align: center;
-        font-size: 96px;
-    }
-
-    .cover-picture-container, .pages{
-        margin: 0px 50px;
-        width: 600px;
-        padding: 10px 50px;
-        text-align: center;
-    }
-
-    .cover-picture{
-        width: 100%;
-    }
-
-    .page{
-        display: inline-block;
-        margin: 0px 10x;
-        padding: 10px;
-        font-size: 36px;
-        text-align: center;
-    }
-
     a {
         color: inherit;
     }
@@ -43,6 +13,7 @@ body {
     .title{
         text-align: left;
         font-size: 72px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     .page-text-container{
